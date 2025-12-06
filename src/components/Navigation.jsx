@@ -16,31 +16,36 @@ const Navigation = ({ darkMode, toggleDarkMode }) => {
     };
 
     const menuItemsList = [
-        {
-            name: 'HOME',
-            route: '/',
-            number: '01',
-            description: 'CONTEMPORARY MODERNISM WITH TRADITIONAL TWISTS THAT WORK TOGETHER TO DELIVER A UNIQUE LOOK AND FEEL FOR EVERY CLIENT.'
-        },
-        {
-            name: 'PROJECTS',
-            route: '/projects',
-            number: '02',
-            description: 'EXPLORE OUR PORTFOLIO OF CAREFULLY CRAFTED SPACES THAT BLEND FORM AND FUNCTION.'
-        },
-        {
-            name: 'ABOUT',
-            route: '/about',
-            number: '03',
-            description: 'DISCOVER OUR STORY, PHILOSOPHY AND THE TEAM BEHIND THE DESIGNS.'
-        },
-        {
-            name: 'CONTACT',
-            route: '/contact',
-            number: '04',
-            description: 'GET IN TOUCH TO START YOUR NEXT PROJECT WITH US.'
-        }
+    {
+        name: 'HOME',
+        route: '/',
+        number: '01',
+        description:
+            'WELCOME TO MY WORLD OF TECHNOLOGY AND CREATIVITY — WHERE ENGINEERING, DESIGN, AND AI COME TOGETHER TO BUILD THE FUTURE.',
+    },
+    {
+        name: 'PROJECTS',
+        route: '/projects',
+        number: '02',
+        description:
+            'EXPLORE MY PROJECTS THAT BLEND CODE, AI, AND INNOVATION — EACH ONE DESIGNED TO PUSH BOUNDARIES AND CREATE SOMETHING MEANINGFUL.',
+    },
+    {
+        name: 'ABOUT',
+        route: '/about',
+        number: '03',
+        description:
+            'LEARN ABOUT MY JOURNEY AS A STUDENT AND AI ENGINEER — MY PASSION FOR BUILDING TECHNOLOGY THAT FEELS HUMAN AND PURPOSEFUL.',
+    },
+    {
+        name: 'CONTACT',
+        route: '/contact',
+        number: '04',
+        description:
+            'LET’S CONNECT! WHETHER IT’S COLLABORATION, IDEAS, OR JUST A CONVERSATION ABOUT TECHNOLOGY AND CREATIVITY.',
+    },
     ];
+
 
     const currentIndex = menuItemsList.findIndex(item => item.route === location.pathname);
 
