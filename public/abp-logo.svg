@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"></stop>
+      <stop offset="50%" stop-color="#020617"></stop>
+      <stop offset="100%" stop-color="#111827"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="url(#bg)"></rect>
+
+  <!-- ABP. Text -->
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" fill="#F9FAFB" font-size="220" letter-spacing="12" font-family="-apple-system, BlinkMacSystemFont, system-ui, 'SF Pro Display', 'Inter', sans-serif" font-weight="600">
+    ABP.
+  </text>
+</svg>

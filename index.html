@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/abp-logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABP Portfolio</title>
+
+  <!-- ✅ Tailwind v4 handles its own styles -->
+  <script src="https://cdn.tailwindcss.com/4.0.0"></script>
+
+  <!-- ✅ Fonts moved here (no more PostCSS errors) -->
+  <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet" />
+  <link href="https://api.fontshare.com/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Optional: smooth font rendering -->
+  <style>
+    html,
+    body {
+      background-color: #000;
+      color: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: 'SF Pro Display', 'General Sans', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    ::selection {
+      background: #ffffff20;
+      color: #fff;
+    }
+
+    body {
+      font-family: "General Sans", "SF Pro Display", sans-serif;
+      background: #fff;
+      color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
