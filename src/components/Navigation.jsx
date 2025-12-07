@@ -277,7 +277,7 @@ const Navigation = ({ darkMode, toggleDarkMode }) => {
                             className="absolute bottom-12 left-1/2 -translate-x-1/2 flex gap-8"
                         >
                             <a
-                                href="https://www.linkedin.com/in/bhanu-prakash-alluri-527188328"
+                                href="https://www.linkedin.com/in/bhanu-prakash-alluri/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="font-general text-xs tracking-widest hover:opacity-60 hover:underline"
