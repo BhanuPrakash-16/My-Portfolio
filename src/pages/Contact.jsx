@@ -84,7 +84,7 @@ const Contact = ({ darkMode }) => {
 
                     {/* LinkedIn */}
                     <motion.a
-                        href="https://www.linkedin.com/in/bhanu-prakash-alluri-527188328/"
+                        href="https://www.linkedin.com/in/bhanu-prakash-alluri/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`absolute bottom-8 md:bottom-12 left-10 md:left-20 font-general text-xs md:text-base tracking-widest hover:underline underline-offset-8 transition-all duration-300 ${darkMode
