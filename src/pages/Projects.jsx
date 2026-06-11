@@ -63,17 +63,17 @@ const Projects = ({ darkMode }) => {
         },
         {
             number: "04",
-            title: "Portfolio Website (2025)",
+            title: "Portfolio Website",
             tags: "react • framer-motion • design • 3d effects",
             image: "/projects/project4.jpg",
             github: "https://github.com/BhanuPrakash-16/My-Portfolio",
         },
         {
             number: "05",
-            title: "Virtual Try-On App (AI Project)(Comming Soon)",
+            title: "AI Virtual Try-On Platform",
             tags: "ai • computer vision • ui/ux • fashion tech",
             image: "/projects/project5.jpg",
-            github: "https://github.com/BhanuPrakash-16",
+            github: "https://github.com/BhanuPrakash-16/stylora-ai-virtual-tryon",
         },
     ];
 
